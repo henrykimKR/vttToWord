@@ -5,7 +5,7 @@
 
 - It may take up to 5 to 10 minutes depending on the size of the VTT file.
 
-## Basic unction
+## Basic Function
 - VTT file(Input)
                
      ![image](https://user-images.githubusercontent.com/112360580/222029631-681d70b6-c689-41e2-b7e5-13b63e8df9fe.png)          
