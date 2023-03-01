@@ -1,5 +1,6 @@
 # Title: Convert VTT to Word for Transcript
 # Author: Henry Kim <Henry.Kim@gmail.com>
+# Github: https://github.com/henrykimKR/vttToWord.git
 # Date: 2023-02-28
 
 import docx
