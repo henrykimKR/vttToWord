@@ -32,6 +32,6 @@
      
      ![image](https://user-images.githubusercontent.com/112360580/222031998-5b941988-ef74-4b85-b5bd-979c2a75aae3.png)
 
-4. Press '**Enter**' to create **'output.docx'** file.
+4. Press '**Enter**' key to generate the **'output.docx'** file.
 
      ![image](https://user-images.githubusercontent.com/112360580/222032161-c11acaaa-c4c0-410b-abe3-cdf4021c5693.png)
