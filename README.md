@@ -1,7 +1,9 @@
 # Convert a VTT file to MS Word file.
 
 ## Description
-> The program extracts only the speaker and conversation from the VTT file and adds them to the Word table.
+- The program extracts only the speaker and conversation from the VTT file and adds them to the Word table.
+
+- It may take up to 5 to 10 minutes depending on the size of the VTT file.
 
 ## Basic unction
 - VTT file(Input)
