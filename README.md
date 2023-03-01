@@ -5,8 +5,8 @@
 
 ## Basic unction
 - VTT file(Input)
-                                                                                                                                         
-     <img src="https://user-images.githubusercontent.com/112360580/222029631-681d70b6-c689-41e2-b7e5-13b63e8df9fe.png" width="70%" height="50%"/>
+               
+     ![image](https://user-images.githubusercontent.com/112360580/222029631-681d70b6-c689-41e2-b7e5-13b63e8df9fe.png)          
 
 - Word file(Output)
 
