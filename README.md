@@ -17,6 +17,8 @@
 2. Place the VTT file that you want to convert in the same folder as the executable file(**'vttToWord.exe'**).
 3. Execute the executable file and enter the full file name.
 
+     <img src="https://user-images.githubusercontent.com/112360580/222031998-5b941988-ef74-4b85-b5bd-979c2a75aae3.png">
+     
      ![image](https://user-images.githubusercontent.com/112360580/222031998-5b941988-ef74-4b85-b5bd-979c2a75aae3.png)
 
 4. Press '**Enter**' to create **'output.docx'** file.
