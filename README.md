@@ -28,7 +28,7 @@
 ## How to use
 1. Download the executable file **'vttToWord.exe'** from the **'dist'** folder and save it to your preferred location.
 2. Place the VTT file that you want to convert in the **'same folder'** as the executable file(**'vttToWord.exe'**).
-3. Execute the executable file and enter the full file name.
+3. Run the executable file, and then type in the full name of the file, including the filename extension.
      
      ![image](https://user-images.githubusercontent.com/112360580/222031998-5b941988-ef74-4b85-b5bd-979c2a75aae3.png)
 
