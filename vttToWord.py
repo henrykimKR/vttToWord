@@ -1,5 +1,5 @@
 # Title: Convert VTT to Word for Transcript
-# author: Henry Kim <Henry.Kim@gmail.com>
+# Author: Henry Kim <Henry.Kim@gmail.com>
 # Date: 2023-02-28
 
 import docx
