@@ -7,9 +7,14 @@ import docx
 import re
 
 # 1. Extract lines from a .vtt file.
-filename = input("Enter the filename of the VTT file: ")
-with open(filename, 'r') as file:
-    lines = file.readlines()
+while True:
+    filename = input("Enter the filename of the VTT file: ")
+    try:
+        with open(filename, 'r') as file:
+            lines = file.readlines()
+        break
+    except FileNotFoundError:
+        print("File not found. Please try again.")
 
 # 2. Create a new Word document and add a table with two columns.
 doc = docx.Document()
