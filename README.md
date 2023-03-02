@@ -1,11 +1,11 @@
 # Convert a VTT file to MS Word file.
 
-## Description
+## Program Description
 - The program extracts only the speaker and conversation from the VTT file and adds them to the Word table.
 
 - It may take up to 5 to 10 minutes depending on the size of the VTT file.
 
-## Basic Function
+## Outcome
 - VTT file(Input)
                
      ![image](https://user-images.githubusercontent.com/112360580/222029631-681d70b6-c689-41e2-b7e5-13b63e8df9fe.png)          
@@ -14,12 +14,16 @@
 
      ![image](https://user-images.githubusercontent.com/112360580/222030053-08569496-396a-4d69-b21f-691552e33c8f.png)
 
-## Additional Functions
--  The program will display an error message if the file you are looking for cannot be found.
+## Functional Description
+- When you run the program, it shows the .vtt files in that folder.
 
-     ![image](https://user-images.githubusercontent.com/112360580/222257878-6a62d6f5-656c-4199-a78d-e0ca49b86a23.png)
+     ![image](https://user-images.githubusercontent.com/112360580/222334357-3111106c-c2b0-4e06-a6f3-a73e0513d0f7.png)
 
--  If a VTT file does not include speaker information, this program will leave this field blank.
+- When the program completes the conversion, the program automatically shuts down and creates a docx file with the same name.
+
+     ![image](https://user-images.githubusercontent.com/112360580/222334753-0a2ff3ac-b7c0-403d-8a24-5f7a7c6a31c4.png)
+
+- If a VTT file does not include speaker information, this program will leave this field blank.
 
      ![image](https://user-images.githubusercontent.com/112360580/222256343-fe145ed0-f540-45a2-9be8-012e89b5362b.png)
      
