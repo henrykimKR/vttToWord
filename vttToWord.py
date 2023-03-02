@@ -45,10 +45,16 @@ lines = [line for line in lines if not re.match(r'^\d{2}:\d{2}:\d{2}.\d{3}.*', l
 lines = [line for line in lines if line.strip()]
 
 # 9. If there is a speaker's name within double quotation marks, put only the name (without the quotation marks) into the left column and remove the line.
+prev_speaker = None
+
 for line in lines:
     if '"' in line:
         speaker = re.findall(r'"([^"]*)"', line)[0]
-        table.add_row().cells[0].text = speaker
+        if speaker == prev_speaker:
+            continue
+        else:
+            prev_speaker = speaker
+            table.add_row().cells[0].text = speaker
     # 10. Else if the line contains only numbers, remove the numbers and leave the left column blank.
     elif line.strip().isdigit():
         table.add_row().cells[0].text = ""
