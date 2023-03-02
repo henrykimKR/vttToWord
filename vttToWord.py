@@ -14,20 +14,20 @@ files = os.listdir()
 vtt_files = [file for file in files if file.endswith('.vtt')]
 
 # 3. Display the list of .vtt files to the user.
-print("Please select a .vtt file to convert.")
+print(">> Please select a VTT file to convert.")
 for i, file in enumerate(vtt_files):
     print(f"{i + 1}. {file}")
 
 # 4. Ask the user to select a file and get the filename.
 while True:
     try:
-        choice = int(input("Enter the number of the file you want to convert: "))
+        choice = int(input("\n>> Enter the number of the file you want to convert: "))
         filename = vtt_files[choice - 1]
         with open(filename, 'r') as file:
             lines = file.readlines()
         break
     except (ValueError, IndexError):
-        print("Invalid choice. Please try again.")
+        print("(Error!! Invalid choice. Please try again.)")
 
 # 5. Create a new Word document with the same name as the vtt file.
 doc_filename = os.path.splitext(filename)[0] + ".docx"
