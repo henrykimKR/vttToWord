@@ -14,7 +14,7 @@ files = os.listdir()
 vtt_files = [file for file in files if file.endswith('.vtt')]
 
 # 3. Display the list of .vtt files to the user.
-print("Please select a .vtt file to convert:")
+print("Please select a .vtt file to convert.")
 for i, file in enumerate(vtt_files):
     print(f"{i + 1}. {file}")
 
