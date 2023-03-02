@@ -3,7 +3,7 @@
 ## Program Description
 - The program extracts only the speaker and conversation from the VTT file and adds them to the Word table.
 
-- It may take up to 5 to 10 minutes depending on the size of the VTT file.
+- It may take up to 1 to 3 minutes depending on the size of the VTT file.
 
 ## Outcome
 - VTT file(Input)
