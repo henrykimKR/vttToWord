@@ -16,7 +16,7 @@
 
 ## How To Use
 1. Download the executable file **'vttToWord.exe'** from the **'dist'** folder and save it to your preferred location.
-   Or https://drive.google.com/file/d/1mV3heJejLg8PUc5vRF35kV7Qs0RZf9GB/view?usp=share_link
+
 2. Place the VTT files that you want to convert in the **'same folder'** as the executable file(**'vttToWord.exe'**).
 
 3. When you run the program, it will display the VTT files located in that folder. You can then enter the number corresponding to the VTT file you wish to convert.
