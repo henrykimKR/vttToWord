@@ -1,11 +1,12 @@
 # Title: Convert VTT to Word for Transcript
 # Author: Henry Kim <Henry.Kim@gmail.com>
 # Github: https://github.com/henrykimKR/vttToWord.git
-# Date: 2023-03-01
+# Date: 2023-03-10
 
 import docx
 import re
 import os
+from docx.shared import Pt
 
 # 1. List all the files in the current directory.
 files = os.listdir()
@@ -32,6 +33,10 @@ while True:
 # 5. Create a new Word document with the same name as the vtt file.
 doc_filename = os.path.splitext(filename)[0] + ".docx"
 doc = docx.Document()
+
+# Set the entire letter to Calibri, size 11
+doc.styles['Normal'].font.name = 'Calibri'
+doc.styles['Normal'].font.size = docx.shared.Pt(11)
 
 # 6. Add a table with two columns to the document.
 table = doc.add_table(rows=0, cols=2)
@@ -60,6 +65,6 @@ for line in lines:
         table.add_row().cells[0].text = ""
     # 11. Else, add it to the right column of the table.
     else:
-        table.rows[-1].cells[1].text += line.strip()
+        table.rows[-1].cells[1].text += line.strip() + "\n"
 
 doc.save(doc_filename)
